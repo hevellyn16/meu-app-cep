@@ -74,9 +74,9 @@ const CepSearch = () => {
                 <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">Bairro:</Text> {endereco.bairro}</Text>
                 <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">Cidade:</Text> {endereco.localidade}</Text>
                 <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">UF:</Text> {endereco.uf}</Text>
-                <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">IBGE:</Text> {endereco.estado}</Text>
+                <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">Estado:</Text> {endereco.estado}</Text>
+                <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">IBGE:</Text> {endereco.ibge}</Text>
                 <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">DDD:</Text> {endereco.regiao}</Text>
-                <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">SIAFI:</Text> {endereco.ibge}</Text>
                 <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">GIA:</Text> {endereco.gia}</Text>
                 <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">DDD:</Text> {endereco.ddd}</Text>
                 <Text className="text-lg mb-2 text-gray-700"><Text className="font-bold">SIAFI:</Text> {endereco.siafi}</Text>
